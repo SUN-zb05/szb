@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>后台管理-登录</title>
+        <style>
+            #be{
+                width: 400px;
+                height: 430px;
+                background-color: white;
+                margin: 0 auto;
+                margin-top: 15px;
+                color: #1E9FFF;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .input-container {
+                align-self: flex-start;
+                margin-left: 45px; 
+				margin-bottom: 10px;
+            }
+            .ss{
+                width: 300px;
+                height: 45px;
+                margin-bottom: 10px;
+                
+            }
+            #mm{
+                width: 170px;
+                height: 40px;
+                margin-top:px; 
+            }
+            #ll{
+                width: 20px;
+                height: 20px;
+                margin-right: 5px; 
+            }
+			#btn{
+				width: 300px;
+				height: 55px;
+				background-color: #1e9fff;
+				border: none;
+				border-radius: 5px;
+				color: white;
+				
+			}
+			#tp{
+				margin-bottom:00.01px;
+			}
+            
+        </style>
+    </head>
+    <body bgcolor="#1E9FFF">
+        <div id="be"><br />
+         <h2>UOLab联合开放实验室<br />管理平台
+         </h2>
+         <input class="ss" type="text" placeholder="用户名或者邮箱"/>
+         <input class="ss" type="password" placeholder="密码"/>
+         <div class="input-container">
+             <input id="mm" type="text" placeholder="图形验证码">
+			 <img id="tp" src="img/captcha.jpg" width="130px" height="45px"/>
+			 <br />
+             <input type="checkbox"  id="ll" />
+             <label for="ll" >记住密码</label><br />
+			 <a href="T.html"><button id="btn">
+			 	登  录
+			 </button></a>
+         </div>
+		 
+        </div>
+    </body>
+</html>
